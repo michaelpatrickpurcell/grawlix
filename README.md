@@ -23,7 +23,7 @@ The six possible colors are:
   - Blue
   - Purple
 
-![All of the pieces in a 6x6 grid](grid_image.pdf)
+![All of the pieces in a 6x6 grid](https://github.com/michaelpatrickpurcell/grawlix/blob/main/grid_image.pdf)
 
 ## Set Up
 All of the tiles should be placed face up on one side of the play area. These tiles are called the _supply_. It may be helpful to arrange the supply as a 6x6 grid in which each column consists of all of the tiles of a given glyph and each row consists of all of the tiles of a given color.
