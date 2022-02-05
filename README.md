@@ -23,6 +23,8 @@ The six possible colors are:
   - Blue
   - Purple
 
+![All of the pieces in a 6x6 grid](grid_image.pdf)
+
 ## Set Up
 All of the tiles should be placed face up on one side of the play area. These tiles are called the _supply_. It may be helpful to arrange the supply as a 6x6 grid in which each column consists of all of the tiles of a given glyph and each row consists of all of the tiles of a given color.
 
@@ -48,6 +50,10 @@ On their first turn, the first player should play a tile from their hand by plac
 
 On every subsequent turn, the current player should play one tile from their hand by placing it face up next to another tile in the play area. Tiles must be placed such that:
   1. At least one edge of the new tile is aligned with an edge of another tile in the play area.
-  2. The glyph of the new tile is different from the glyph of every other tile in both the row and column in which it is placed.
-  3. The color of the new tile is different from the color of every other tile in both the row and column in which it is placed.
+  2. The glyph of the new tile is different from the glyph of every other tile in the
+     - row in which it is placed.
+     - column in which it is placed.
+  3. The color of the new tile is different from the color of every other tile in the:
+     - row in which it is placed.
+     - column in which it is placed.
   4. After placing the new tile, the tiles in the play area span no more than six rows and six columns.
