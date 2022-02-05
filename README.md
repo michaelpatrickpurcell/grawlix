@@ -50,10 +50,16 @@ On their first turn, the first player should play a tile from their hand by plac
 
 On every subsequent turn, the current player should play one tile from their hand by placing it face up next to another tile in the play area. Tiles must be placed such that:
   1. At least one edge of the new tile is aligned with an edge of another tile in the play area.
+
+  ![Legal placements for a new tile](/Images/adjacent.png)
+
   2. The glyph of the new tile is different from the glyph of every other tile in the
      - row in which it is placed.
      - column in which it is placed.
+
+
   3. The color of the new tile is different from the color of every other tile in the:
      - row in which it is placed.
      - column in which it is placed.
+
   4. After placing the new tile, the tiles in the play area span no more than six rows and six columns.
