@@ -1,0 +1,18 @@
+\documentclass{standalone}
+
+\usepackage{grawlix}
+
+\begin{document}
+
+\begin{tikzpicture}
+\node[tile] () at (0,0) {};
+\pic () at (0,0) {ampersand={red}};
+
+\node[draw, densely dotted, minimum height=0.5cm, minimum width=0.5cm] () at (0.5,0) {};
+\node[draw, densely dotted, minimum height=0.5cm, minimum width=0.5cm] () at (-0.5,0) {};
+\node[draw, densely dotted, minimum height=0.5cm, minimum width=0.5cm] () at (0,0.5) {};
+\node[draw, densely dotted, minimum height=0.5cm, minimum width=0.5cm] () at (0,-0.5) {};
+
+\end{tikzpicture}
+
+\end{document}
