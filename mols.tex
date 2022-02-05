@@ -1,0 +1,40 @@
+\documentclass{standalone}
+
+\usepackage{grawlix}
+
+\begin{document}
+
+\begin{tikzpicture}
+
+\node[vacant] () at (-0.5,0) {};
+\node[dotter] () at (-0.5,0) {};
+
+\node[vacant] () at (0.5,0.5) {};
+\node[dotter] () at (0.5,0.5) {};
+
+\node[vacant] () at (0,0.5) {};
+\node[dotter] () at (0,0.5) {};
+
+\node[vacant] () at (0,-0.5) {};
+\node[dotter] () at (0,-0.5) {};
+
+\node[vacant] () at (0.5,-1) {};
+\node[dotter] () at (0.5,-1) {};
+
+\node[vacant] () at (1,0) {};
+\node[dotter] () at (1,0) {};
+
+\node[vacant] () at (1,-0.5) {};
+\node[dotter] () at (1,-0.5) {};
+
+\node[tile] () at (0,0) {};
+\pic () at (0,0) {ampersand={red}};
+\node[tile] () at (0.5,0) {};
+\pic () at (0.5,0) {octothorpe={blue}};
+\node[tile] () at (0.5,-0.5) {};
+\pic () at (0.5,-0.5) {asterisk={yellow}};
+
+\path (-0.875, -1.375) to (1.375, 0.875);
+\end{tikzpicture}
+
+\end{document}
