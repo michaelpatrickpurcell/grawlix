@@ -1,0 +1,48 @@
+\usepackage{tikz}
+\usepackage{fontspec}
+\setmainfont{Quicksand-Bold}
+
+\usepackage{contour}
+\contourlength{0.15pt}
+\contournumber{256}
+
+\tikzset{at/.pic={
+	\node () at (0,0) {};
+    	\node () at (0,0) {\setmainfont{Comic Neue-Bold} \contour{black}{\textcolor{#1}{\fontsize{15}{18}\selectfont @}}};
+}}
+
+\tikzset{octothorpe/.pic={
+	\node () at (0,0) {};
+    	\node () at (0,0) {\setmainfont{Comic Neue-Bold} \contour{black}{\textcolor{#1}{\fontsize{16}{18}\selectfont \#}}};
+}}
+
+\tikzset{dollar/.pic={
+	\node () at (0,0) {};
+    	\node () at (0,0) {\setmainfont{Comic Neue-Bold} \contour{black}{\textcolor{#1}{\fontsize{13.5}{18}\selectfont \$}}};
+}}
+
+\tikzset{percent/.pic={
+	\node () at (0,0) {};
+    	\node () at (0,0) {\setmainfont{Comic Neue-Bold} \contour{black}{\textcolor{#1}{\fontsize{16}{18}\selectfont \%}}};
+}}
+
+\tikzset{ampersand/.pic={
+	\node () at (0,0) {};
+    	\node () at (0,0) {\setmainfont{Comic Neue-Bold} \contour{black}{\textcolor{#1}{\fontsize{16}{18}\selectfont \&}}};
+}}
+
+%\tikzset{asterisk/.pic={
+%	\node () at (0,0) {};
+%    	\node () at (0,-0.475mm) {\setmainfont{Quicksand-Bold} \contour{black}{\textcolor{#1}{\fontsize{28.5}{25}\selectfont \textasteriskcentered{}}}};
+%}}
+
+\tikzset{asterisk/.pic={
+	\node () at (0,0) {};
+    	\node () at (0,-0.525mm) {\setmainfont{Quicksand-Semibold} \contour{black}{\textcolor{#1}{\fontsize{29}{25}\selectfont \textasteriskcentered{}}}};
+}}
+
+\tikzset{tile/.style={draw=black, fill=lightgray, minimum height=0.5cm, minimum width=0.5cm, inner sep=0pt}}
+
+\tikzset{vacant/.style={draw=black, fill=white, minimum height=0.5cm, minimum width=0.5cm, inner sep=0pt}}
+
+\tikzset{dotter/.style={densely dotted, thick, draw=white, fill=white, minimum height=0.5cm, minimum width=0.5cm, inner sep=0pt}}
