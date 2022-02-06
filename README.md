@@ -86,14 +86,14 @@ Consider the location labeled with the question mark. The only tile in this colu
 As more tiles are added to the tableau during the game, more constraints will be added which further restrict which tiles can be placed in each location.
 
 ### Example 2
-In the following example, seventeen tiles are in the tableau. The tableau has five rows and six columns. The next player can place their tile in one of thirteen possible locations, which are indicated in the diagram below.
+In the following example, seventeen tiles are in the tableau. The tableau has five rows and six columns. The next player can place their tile in one of sixteen possible locations, which are indicated by the dotted squares in the diagram below.
 
-![Tableau with seventeen tiles and thirteen possible next moves](/Images/big_example.png)
+![Tableau with seventeen tiles and sixteen possible next moves](/Images/big_example.png)
 
-Consider the location labeled with the question mark. There are no tiles in this row. The tiles in this column are the purple @ (at symbol), blue \% (percent symbol), and orange \# (pound sign). So, the allowed glyphs and colors for a tile placed in this location are:
-  - __Glyphs__: $ (dollar sign), & (ampersand), * (asterisk);
-  - __Color__: red, yellow, green.
+The tableau already has six columns, so a tile cannot be placed in a new column. The tableau only has five rows, so a tile can be placed in a new row.
 
-  Notice that, because the tableau already has six columns, a new tile cannot be placed in a new column. Because the tableau has only five rows, however, a tile can placed in a new row in the location marked by a question mark.
+Consider the location labeled with the question mark. There are no tiles in this row. The tiles in this column are the blue @ (at symbol), orange * (asterisk), and green \$ (dollar sign). So, the allowed glyphs and colors for a tile placed in this location are:
+  - __Glyphs__: # (pound sign), \% (percent symbol), \& (ampersand);
+  - __Color__: red, yellow, purple.
 
-  Finally, notice that the purple @ (at symbol) imposes constraints on the tiles that can be placed in the location marked by a question mark despite there being a gap in the column between their two locations.
+If a tile is placed in the location marked by the question mark (or another location in the same row), then the tableau will have six rows and future tiles cannot be placed in the location marked by the exclamation point.
