@@ -68,15 +68,18 @@ More explicitly, when a new tile is added to the play area it must be placed suc
   4. After placing the new tile, the tiles in the play area span no more than six rows and six columns. In other words, there must be no more than six distinct rows and six distinct columns.
 
 ### Example
-In the following example, three tiles are in the play area: the red ampersand, the blue pound sign, and the yellow asterisk.  The next player can place their tile in one of seven possible locations, which are labeled 1 - 7 in the diagram below.
+In the following example, three tiles are in the play area: the red ampersand, the blue pound sign, and the yellow asterisk.  The next player can place their tile in one of seven possible locations, which are indicated by the dotted squares in the diagram below.
 
-![Play area with three tiles seven possible next moves](/Images/example_numbers.png)
+![Play area with three tiles seven possible next moves](/Images/example_question.png)
 
-The constraints on glyphs and colors for each possible location are:
-  1. The only other tile in this column is the red ampersand. There are no tiles in this row. So, any tile that is placed here must be labeled with the at symbol, pound sign, dollar sign, percent symbol, or asterisk (i.e. anything but the ampersand) and must be orange, yellow, green, blue, or purple (i.e. anything but red).
+Consider the location labeled with the question mark. The only other tile in the same column is the red ampersand and the only other tile in this row is the yellow asterisk. So, the constraints on glyphs and colors for any tile placed in this location are:
+  - __Glyphs__: @, #, $, % (anything but & or *);
+  - __Color__: orange, green, blue, or purple (anything but red or yellow).
+
+  <!-- 1. The only other tile in this column is the red ampersand. There are no tiles in this row. So, any tile that is placed here must be labeled with the at symbol, pound sign, dollar sign, percent symbol, or asterisk (i.e. anything but the ampersand) and must be orange, yellow, green, blue, or purple (i.e. anything but red).
   2. The other tiles in this column are the blue pound sign and the yellow asterisk. There are no tiles in this row. So, any tile that is placed here must be labeled with the at symbol, dollar sign, percent symbol, or ampersand and must be red, orange, green, or purple.
   3. There are no other tiles in this column. The other tiles in this row are the red ampersand and the blue pound sign. So, any tile that is placed here must be labeled with the at symbol, dollar sign, percent symbol, or asterisk and must be orange, yellow, green, or purple.
   4. The constraints for this location are the same as for 3.
   5. The only other tile in this column is the red ampersand. The only other tile in this row is the yellow asterisk. So, any tile that is placed here must be labeled with the at symbol, pound sign, dollar sign, or percent symbol and must be orange, green, blue, or purple.
   6. There are no other tiles in this column. The only other tile in this row is the yellow asterisk. So, any tile that is placed here must be labeled with the at symbol, pound sign, dollar sign, percent symbol, or ampersand (anything but the asterisk) and must be red, orange, gree, blue, or purple (anything but yellow).
-  7. The constraints for this location are the same as those for 2.
+  7. The constraints for this location are the same as those for 2. -->
