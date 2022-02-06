@@ -1,7 +1,18 @@
 # Grawlix
-Grawlix is a two-player, perfect-information, [abstract strategy game](https://en.wikipedia.org/wiki/Abstract_strategy_game) which is based on the [thirty-six officers problem](https://en.wikipedia.org/wiki/Mutually_orthogonal_Latin_squares#Thirty-six_officers_problem).
+Grawlix is an abstract strategy game for two players that can be played in 15-30 minutes.
 
-The name of the game refers to a term coined by Mort Walker to describe a string of typographical symbols that writers, particularly cartoonists, use as a replacement for profanity.
+
+## Backstory
+A pair of typesetters once worked for a local newspaper in an era when that kind of work was still done with a mechanical printing press rather than with a computer. Because cartoonists often replaced any profanity in their comic strips with strings of punctuation and other special characters, the typesetters had set aside the type that they used to print those characters in a special case. Their collection consisted of the type used to print six different special characters in each of six different typefaces.
+
+One day, while preparing that week's Sunday comics, they noticed a curious phenomenon. Despite their best efforts, neither of the typesetters could devise a way to arrange the thirty-six pieces of type in a 6x6 grid such that every row and every column had one type of each special character and one of each typeface.
+
+Eventually, they turned this puzzle into a two-player game that they could play as they worked. Both players would grab a handful of type at the beginning of the day. They would then take turns choosing a piece of type from their hand and adding it to a grid of previously played type on the workbench. Each new piece of type had to be placed in a row and column that did not already have a piece of type with the same special character or the same typeface. Furthermore, the grid could have no more than six rows and six columns.
+
+The game continued in this way, with players refreshing their hands as necessary, until one player was unable to find a legal move. That player would be the loser of the game. Each day, the loser of the game had to take out the trash at the end of the shift.
+
+Grawlix is a version of the typesetters' game. In this version, plastic tiles are used in place of metal type and different colors are used in place of different typefaces.
+
 
 ## Components
 The only components required to play Grawlix are a flat _play area_ and thirty-six _tiles_.
@@ -97,3 +108,8 @@ Consider the location labeled with the question mark. There are no tiles in this
   - __Color__: red, yellow, purple.
 
 If a tile is placed in the location labeled with the question mark (or another location in the same row), then the tableau will have six rows and future tiles cannot be placed in the location labeled with the exclamation point.
+
+## Fun Facts
+Grawlix is a term coined by Mort Walker to describe a string of typographical symbols that writers, particularly cartoonists, use as a replacement for profanity.
+
+The mechanics of the game are based on the the [thirty-six officers problem](https://en.wikipedia.org/wiki/Mutually_orthogonal_Latin_squares#Thirty-six_officers_problem).
