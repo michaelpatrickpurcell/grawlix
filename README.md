@@ -48,18 +48,21 @@ If a player is unable to play a tile on their turn then that player loses the ga
 ### Playing Tiles
 On their first turn, the first player should play a tile from their hand by placing it face up anywhere in the play area.
 
-On every subsequent turn, the current player should play one tile from their hand by placing it face up next to another tile in the play area. Tiles must be placed such that:
+On every subsequent turn, the current player should play one tile from their hand by placing it face up next to another tile in the play area.
+
+This ensures that the tiles in the play area will be aligned in a square grid made up of _rows_ and _columns_. A row is a group of tiles that are on the same horizontal line.  A column is a group of tiles that are on the same vertical line.
+
+Rows and columns do not need to be contiguous.  That is, if two tiles are on the same line then they are in the same row or column, regardless of what tiles or gaps are between them along that line.
+
+More explicitly, when a new tile is added to the play area it must be placed such that:
   1. At least one edge of the new tile is aligned with an edge of another tile in the play area.
-
-  ![Legal placements for a new tile](/Images/adjacent.png)
-
+  <!-- ![Legal placements for a new tile](/Images/adjacent.png) -->
   2. The glyph of the new tile is different from the glyph of every other tile in the
      - row in which it is placed.
      - column in which it is placed.
-
-
+  <!-- -->
   3. The color of the new tile is different from the color of every other tile in the:
      - row in which it is placed.
      - column in which it is placed.
-
-  4. After placing the new tile, the tiles in the play area span no more than six rows and six columns.
+  <!-- -->
+  4. After placing the new tile, the tiles in the play area span no more than six rows and six columns. That is, there must be no more than six distinct rows and six distinct columns.
