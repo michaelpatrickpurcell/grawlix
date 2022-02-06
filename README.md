@@ -86,11 +86,11 @@ Consider the location labeled with the question mark. The only tile in this colu
 As more tiles are added to the tableau during the game, more constraints will be added which further restrict which tiles can be placed in each location.
 
 ### Example 2
-In the following example, seventeen tiles are in the tableau. The tableau has five rows and six columns. The next player can place their tile in one of sixteen possible locations, which are indicated by the dotted squares in the diagram below.
+In the following example, seventeen tiles are in the tableau. The next player can place their tile in one of sixteen possible locations, which are indicated by the dotted squares in the diagram below.
+
+The tableau has six columns, so a tile cannot be placed in a new column. The tableau only has five rows, however, so a tile can be placed in a new row.
 
 ![Tableau with seventeen tiles and sixteen possible next moves](/Images/big_example.png)
-
-The tableau already has six columns, so a tile cannot be placed in a new column. The tableau only has five rows, so a tile can be placed in a new row.
 
 Consider the location labeled with the question mark. There are no tiles in this row. The tiles in this column are the blue @ (at symbol), orange * (asterisk), and green \$ (dollar sign). So, the allowed glyphs and colors for a tile placed in this location are:
   - __Glyphs__: # (pound sign), \% (percent symbol), \& (ampersand);
