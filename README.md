@@ -77,7 +77,7 @@ When a new tile is played it must be placed in the play area such that:
 ### Example 1
 In the following example, three tiles are in the tableau: the red & (ampersand), the blue # (pound sign), and the yellow * (asterisk).  The next player can place their tile in one of seven possible locations, which are indicated by the dotted squares in the diagram below.
 
-![Tableau with three tiles seven possible next moves](/Images/example_question.png)
+![Tableau with three tiles seven possible next moves](/Images/small_example.png)
 
 Consider the location labeled with the question mark. The only tile in this column is the red & (ampersand) and the only tile in this row is the yellow * (asterisk). So, the allowed glyphs and colors for a tile placed in this location are:
   - __Glyphs__: @ (at symbol), # (pound sign), $ (dollar sign), % (percent symbol);
