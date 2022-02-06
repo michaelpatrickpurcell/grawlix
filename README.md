@@ -74,13 +74,26 @@ When a new tile is played it must be placed in the play area such that:
   <!-- -->
   4. The tableau has no more than six rows and six columns.
 
-### Example
-In the following example, three tiles are in the play area: the red & (ampersand), the blue # (pound sign), and the yellow * (asterisk).  The next player can place their tile in one of seven possible locations, which are indicated by the dotted squares in the diagram below.
+### Example 1
+In the following example, three tiles are in the tableau: the red & (ampersand), the blue # (pound sign), and the yellow * (asterisk).  The next player can place their tile in one of seven possible locations, which are indicated by the dotted squares in the diagram below.
 
-![Play area with three tiles seven possible next moves](/Images/example_question.png)
+![Tableau with three tiles seven possible next moves](/Images/example_question.png)
 
 Consider the location labeled with the question mark. The only tile in this column is the red & (ampersand) and the only tile in this row is the yellow * (asterisk). So, the allowed glyphs and colors for a tile placed in this location are:
   - __Glyphs__: @ (at symbol), # (pound sign), $ (dollar sign), % (percent symbol);
   - __Color__: orange, green, blue, or purple.
 
 As more tiles are added to the tableau during the game, more constraints will be added which further restrict which tiles can be placed in each location.
+
+### Example 2
+In the following example, seventeen tiles are in the tableau. The tableau has five rows and six columns. The next player can place their tile in one of thirteen possible locations, which are indicated in the diagram below.
+
+![Tableau with seventeen tiles and thirteen possible next moves](/Images/big_example.png)
+
+Consider the location labeled with the question mark. There are no tiles in this row. The tiles in this column are the purple @ (at symbol), blue \% (percent symbol), and orange \# (pound sign). So, the allowed glyphs and colors for a tile placed in this location are:
+  - __Glyphs__: $ (dollar sign), & (ampersand), * (asterisk);
+  - __Color__: red, yellow, green.
+
+  Notice that, because the tableau already has six columns, a new tile cannot be placed in a new column. Because the tableau has only five rows, however, a tile can placed in a new row in the location marked by a question mark.
+
+  Finally, notice that the purple @ (at symbol) imposes constraints on the tiles that can be placed in the location marked by a question mark despite there being a gap in the column between their two locations.
