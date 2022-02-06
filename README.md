@@ -65,4 +65,13 @@ More explicitly, when a new tile is added to the play area it must be placed suc
      - row in which it is placed.
      - column in which it is placed.
   <!-- -->
-  4. After placing the new tile, the tiles in the play area span no more than six rows and six columns. That is, there must be no more than six distinct rows and six distinct columns.
+  4. After placing the new tile, the tiles in the play area span no more than six rows and six columns. In other words, there must be no more than six distinct rows and six distinct columns.
+
+### Example
+In the following example, three tiles are in the play area: the red ampersand, the blue pound sign, and the yellow asterisk.  The next player can place their tile in one of seven possible locations, which are labeled A - G in the diagram below.
+
+![Play area with three tiles seven possible next moves](/Images/example_numbers.png)
+
+The constraints on glyphs and colors for each possible location are:
+  1. The only other tile in the same row or column as this location is the red ampersand. So, any tile that is placed here must be labeled with the at symbol, pound sign, dollar sign, percent symbol, or asterisk (i.e. anything but the ampersand) and must be orange, yellow, green, blue, or purple (i.e. anything but red).
+  2. This is another test  
