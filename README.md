@@ -68,7 +68,7 @@ More explicitly, when a new tile is added to the play area it must be placed suc
   4. After placing the new tile, the tiles in the play area span no more than six rows and six columns. In other words, there must be no more than six distinct rows and six distinct columns.
 
 ### Example
-In the following example, three tiles are in the play area: the red ampersand, the blue pound sign, and the yellow asterisk.  The next player can place their tile in one of seven possible locations, which are indicated by the dotted squares in the diagram below.
+In the following example, three tiles are in the play area: the red & (ampersand), the blue # (pound sign), and the yellow * (asterisk).  The next player can place their tile in one of seven possible locations, which are indicated by the dotted squares in the diagram below.
 
 ![Play area with three tiles seven possible next moves](/Images/example_question.png)
 
