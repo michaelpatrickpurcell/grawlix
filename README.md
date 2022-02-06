@@ -96,4 +96,4 @@ Consider the location labeled with the question mark. There are no tiles in this
   - __Glyphs__: # (pound sign), \% (percent symbol), \& (ampersand);
   - __Color__: red, yellow, purple.
 
-If a tile is placed in the location labeld with the question mark (or another location in the same row), then the tableau will have six rows and future tiles cannot be placed in the location labeled with the exclamation point.
+If a tile is placed in the location labeled with the question mark (or another location in the same row), then the tableau will have six rows and future tiles cannot be placed in the location labeled with the exclamation point.
