@@ -23,7 +23,7 @@ The six possible colors are:
   - Blue
   - Purple
 
-![All of the pieces in a 6x6 grid](/Images/grid_image.png)
+![All of the tiles in a 6x6 grid](/Images/grid_image.png)
 
 ## Set Up
 All of the tiles should be placed face up on one side of the play area. These tiles are called the _supply_. It may be helpful to arrange the supply as a 6x6 grid in which each column consists of all of the tiles of a given glyph and each row consists of all of the tiles of a given color.
@@ -39,9 +39,9 @@ All tiles, both in the supply and in the players' hands, should be visible to bo
 At the beginning of the game, there are no tiles in the play area.
 
 ## Gameplay
-The players will take turns playing tiles from their hands to the play area until one of them is unable to do so.
+The players should take turns playing tiles from their hands until one of them is unable to do so.
 
-After playing each tile, if there are any tiles remaining in the supply then the current player should choose a tile from the supply and add it to their hand to replace the tile that they played.
+After playing each tile, if there are any tiles remaining in the supply, the current player should draft a tile to replace the one that they played.
 
 If a player is unable to play a tile on their turn then that player loses the game.
 
@@ -72,7 +72,7 @@ In the following example, three tiles are in the play area: the red & (ampersand
 
 ![Play area with three tiles seven possible next moves](/Images/example_question.png)
 
-Consider the location labeled with the question mark. The only other tile in the same column is the red & (ampersand) and the only other tile in this row is the yellow * (asterisk). So, the constraints on glyphs and colors for any tile placed in this location are:
+Consider the location labeled with the question mark. The only tile in this column is the red & (ampersand) and the only tile in this row is the yellow * (asterisk). So, the allowed glyphs and colors for any tile placed in this location are:
   - __Glyphs__: @, #, $, % (anything but & or *);
   - __Color__: orange, green, blue, or purple (anything but red or yellow).
 
