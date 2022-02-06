@@ -72,7 +72,7 @@ In the following example, three tiles are in the play area: the red ampersand, t
 
 ![Play area with three tiles seven possible next moves](/Images/example_question.png)
 
-Consider the location labeled with the question mark. The only other tile in the same column is the red ampersand and the only other tile in this row is the yellow asterisk. So, the constraints on glyphs and colors for any tile placed in this location are:
+Consider the location labeled with the question mark. The only other tile in the same column is the red & and the only other tile in this row is the yellow *. So, the constraints on glyphs and colors for any tile placed in this location are:
   - __Glyphs__: @, #, $, % (anything but & or *);
   - __Color__: orange, green, blue, or purple (anything but red or yellow).
 
