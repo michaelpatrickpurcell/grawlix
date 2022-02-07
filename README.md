@@ -6,7 +6,7 @@ The file [grawlix_tiles.stl](grawlix_tiles.stl) contains models for the tiles th
 Alternatively, the tiles from the popular game [Qwirkle](https://boardgamegeek.com/boardgame/25669/qwirkle) can be used to play Grawlix.  Qwirkle is played with one hundred eight wooden tiles. Each tile has one of six different symbols on it in one of six different colors. There are three copies of each tile. So, the tiles from Qwirkle can be repurposed to form three sets of tiles, each of which is equivalent to a complete set of Grawlix tiles.
 
 
-## Backstory
+## A Tale of Two Typesetters
 A pair of typesetters once worked for a local newspaper in an era when that kind of work was still done with a mechanical printing press rather than with a computer. Because cartoonists often replaced any profanity in their comic strips with strings of punctuation and other special characters, the typesetters had set aside the type that they used to print those characters in a special case. Their collection consisted of the type used to print six different special characters in each of six different typefaces.
 
 One day, while preparing that week's Sunday comics, they noticed a curious phenomenon. Despite their best efforts, neither of the typesetters could devise a way to arrange the thirty-six pieces of type in a 6x6 grid such that every row and every column had one of each special character and one of each typeface.
