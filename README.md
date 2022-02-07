@@ -9,7 +9,7 @@ One day, while preparing that week's Sunday comics, they noticed a curious pheno
 
 Eventually, they turned this puzzle into a two-player game that they could play as they worked. Both players would grab a handful of type at the beginning of the day. They would then take turns choosing a piece of type from their hand and placing it on the workbench next to a piece of type that had been played previously. Each new piece of type had to be placed in a row and column that did not already have a piece of type with the same special character or the same typeface. Furthermore, the grid could have no more than six rows and six columns.
 
-The game continued in this way, with players refreshing their hands as necessary, until one player was unable to find a legal move. That player would be the loser of the game and would have to buy the first round of drinks that night after their shift.
+The game continued in this way, with players refreshing their hands as necessary, until one player was unable to find a legal move. That player would be the loser of the game and would have to come in a few minutes early the next morning to make coffee.
 
 ## Components
 Grawlix is a version of the typesetters' game. While the gameplay is unchanged, the components are a bit different. In this version, plastic tiles are used in place of metal type and different colors are used to distinguish tiles instead of different typefaces.
