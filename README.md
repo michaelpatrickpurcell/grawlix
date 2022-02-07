@@ -7,7 +7,15 @@ Alternatively, the tiles from the popular game [Qwirkle](https://boardgamegeek.c
 
 
 ## The Typesetters' Game
-A pair of typesetters once worked for a local newspaper in an era when that kind of work was still done with a mechanical printing press rather than with a computer. Because cartoonists often replaced any profanity in their comic strips with strings of punctuation and other special characters, the typesetters had set aside the type that they used to print those characters in a special case. Their collection consisted of the type used to print six different special characters in each of six different typefaces.
+A pair of typesetters once worked for a local newspaper. Every Sunday, they produced a set of comic strips. This was challenging because it was so different from their regular work. In particular, the cartoonists sometimes used strings of punctuation marks to represent profanity. The typesetters often had to improvise to find enough type to print those sections. So, they set aside the type that they had used for this purpose in a special case. Over time, they amassed a collection of thirty-six pieces of type. They had one for each of six different punctuation marks in each of six different typefaces.
+
+One day, while preparing that week's Sunday comics, they noticed a curious phenomenon. They had arranged their collection of type in a square on the workbench. It was easy to ensure that every row and column had only one of each punctuation mark. It was easy to ensure that every row and column had only one of each typeface. Despite their best efforts, they could not find a way to do both at the same time. If they eliminated one punctuation mark and one typeface, then the problem was easy. If they added one punctuation mark and one typeface, then the problem was easy. There was something special about six.
+
+They turned this puzzle into a two-player game that they could play as they worked. The rules were simple. Both players would grab a handful of type at the beginning of the day. Then, they would take turns playing by placing those pieces on the workbench in a grid. They had to place each piece next to a piece that was already in the grid. Each row and column could have only one of each punctuation mark and one of each typeface. The grid could have no more than six rows and six columns. 
+
+The game continued in this way until one player was unable to find a legal move. That player would be the loser of the game and would have to come in a few minutes early the next morning to make coffee.
+
+<!--A pair of typesetters once worked for a local newspaper in an era when that kind of work was still done with a mechanical printing press rather than with a computer. Because cartoonists often replaced any profanity in their comic strips with strings of punctuation and other special characters, the typesetters had set aside the type that they used to print those characters in a special case. Their collection consisted of the type used to print six different special characters in each of six different typefaces.
 
 One day, while preparing that week's Sunday comics, they noticed a curious phenomenon. Despite their best efforts, neither of the typesetters could devise a way to arrange the thirty-six pieces of type in a 6x6 grid such that every row and every column had one of each special character and one of each typeface.
 
@@ -15,7 +23,7 @@ Eventually, they turned this puzzle into a two-player game that they could play 
 
 Each new piece of type had to be placed in a row and column that did not already have a piece of type with the same special character or the same typeface. Also, to ensure that they could pack up when they went home for the evening without disrupting an incomplete game, the tiles on the workbench could span no more than six rows and six columns.
 
-The game continued in this way, with players refreshing their hands as necessary, until one player was unable to find a legal move. That player would be the loser of the game and would have to come in a few minutes early the next morning to make coffee.
+The game continued in this way, with players refreshing their hands as necessary, until one player was unable to find a legal move. That player would be the loser of the game and would have to come in a few minutes early the next morning to make coffee. -->
 
 ## Components
 Grawlix is a version of the typesetters' game. While the gameplay is unchanged, the components are a bit different. In this version, plastic tiles are used in place of metal type and different colors are used to distinguish tiles instead of different typefaces.
