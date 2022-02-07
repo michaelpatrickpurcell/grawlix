@@ -16,7 +16,7 @@ They turned this puzzle into a two-player game that they could play as they work
 The game continued in this way until one player was unable to find a legal move. That player would be the loser of the game and would have to come in a few minutes early the next morning to make coffee.
 
 ## Components
-Grawlix is a version of the typesetters' game. While the gameplay is unchanged, the components are a bit different. In this version, plastic tiles are used in place of metal type. Also, different colors are used to distinguish tiles instead of different typefaces.
+Grawlix is a version of the typesetters' game. The gameplay is unchanged but the components are a bit different. In this version, plastic tiles are used in place of metal type. Also, different colors are used to distinguish tiles instead of different typefaces.
 
 To play Grawlix, the players will need a flat _play area_ and thirty-six _tiles_. Each tile is labeled with one of six possible _glyphs_ and one six possible _colors_.  There is one tile for each possible combination of glyph and color.
 
