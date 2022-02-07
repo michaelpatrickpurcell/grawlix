@@ -1,9 +1,9 @@
 # Grawlix
 Grawlix is an abstract strategy game for two players that can be played in 15-30 minutes.
 
-The file [grawlix_tiles.stl](grawlix_tiles.stl) contains models for the tiles that are need to play the game as depicted in these rules. Six batches are required to produce a complete set of tiles, one batch per color. The models are designed to have the filament switched during the print. Start each batch using the same base color. White or light gray work well for this purpose. Pause the printer when the glyph begins printing and switch the filament to the desired accent color.
+The file [grawlix_tiles.stl](grawlix_tiles.stl) contains models for the tiles that are need to play the game as described in these rules. Six batches are required to produce a complete set of tiles, one batch per color. The models are designed to have the filament switched during the print. Start each batch using the same base color. White or light gray work well for this purpose. Pause the printer when the glyph begins printing and switch the filament to the desired accent color.
 
-Alternatively, the tiles from the popular game [Qwirkle](https://boardgamegeek.com/boardgame/25669/qwirkle) can be used to play the Grawlix.  Qwirkle comes with 108 wooden tiles. Each tile has one of six different symbols on it in one of six different colors. There are three copies of each tile. So, the tiles from Qwirkle can be repurposed to form three sets of tiles, each of which is equivalent to a complete set of Grawlix tiles.
+Alternatively, the tiles from the popular game [Qwirkle](https://boardgamegeek.com/boardgame/25669/qwirkle) can be used to play Grawlix.  Qwirkle is played with one hundred eight wooden tiles. Each tile has one of six different symbols on it in one of six different colors. There are three copies of each tile. So, the tiles from Qwirkle can be repurposed to form three sets of tiles, each of which is equivalent to a complete set of Grawlix tiles.
 
 
 ## Backstory
@@ -11,7 +11,9 @@ A pair of typesetters once worked for a local newspaper in an era when that kind
 
 One day, while preparing that week's Sunday comics, they noticed a curious phenomenon. Despite their best efforts, neither of the typesetters could devise a way to arrange the thirty-six pieces of type in a 6x6 grid such that every row and every column had one of each special character and one of each typeface.
 
-Eventually, they turned this puzzle into a two-player game that they could play as they worked. Both players would grab a handful of type at the beginning of the day. They would then take turns choosing a piece of type from their hand and placing it on the workbench next to a piece of type that had been played previously. Each new piece of type had to be placed in a row and column that did not already have a piece of type with the same special character or the same typeface. Furthermore, the grid could have no more than six rows and six columns.
+Eventually, they turned this puzzle into a two-player game that they could play as they worked. Both players would grab a handful of type at the beginning of the day. They would then take turns choosing a piece of type from their hand and placing it on the workbench next to a piece of type that had been played previously.
+
+Each new piece of type had to be placed in a row and column that did not already have a piece of type with the same special character or the same typeface. Also, to ensure that they could pack up when they went home for the evening without disrupting an incomplete game, the tiles on the workbench could span no more than six rows and six columns.
 
 The game continued in this way, with players refreshing their hands as necessary, until one player was unable to find a legal move. That player would be the loser of the game and would have to come in a few minutes early the next morning to make coffee.
 
