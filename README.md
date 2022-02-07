@@ -1,6 +1,10 @@
 # Grawlix
 Grawlix is an abstract strategy game for two players that can be played in 15-30 minutes.
 
+The file [grawlix_tiles.stl](grawlix_tiles.stl) contains models for the tiles that are need to play the game as depicted in these rules. Six batches are required to produce a complete set of tiles, one batch per color. The models are designed to have the filament switched during the print. Start each batch using the same base color. White or light gray work well for this purpose. Pause the printer when the glyph begins printing and switch the filament to the desired accent color.
+
+Alternatively, the tiles from the popular game [Qwirkle](https://boardgamegeek.com/boardgame/25669/qwirkle) can be used to play the Grawlix.  Qwirkle comes with 108 wooden tiles. Each tile has one of six different symbols on it in one of six different colors. There are three copies of each tile. So, the tiles from Qwirkle can be repurposed to form three sets of tiles, each of which is equivalent to a complete set of Grawlix tiles.
+
 
 ## Backstory
 A pair of typesetters once worked for a local newspaper in an era when that kind of work was still done with a mechanical printing press rather than with a computer. Because cartoonists often replaced any profanity in their comic strips with strings of punctuation and other special characters, the typesetters had set aside the type that they used to print those characters in a special case. Their collection consisted of the type used to print six different special characters in each of six different typefaces.
