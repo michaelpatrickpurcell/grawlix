@@ -99,30 +99,20 @@ Dannielle Harden
 	UprightFont = *-Medium,
 	BoldFont = *-Bold]
 \raggedright
-\section{The Typesetters' Game}
-A pair of typesetters once worked for a local newspaper. Every Sunday, they produced a set of comic strips. This was challenging because it was so different from their regular work. In particular, the cartoonists sometimes used strings of punctuation to represent profanity. The typesetters often had to improvise to find enough type to print those sections. So, they set aside the type that they used for this purpose in a special case. Over time, they amassed a collection of thirty-six pieces of type. They had one for each of six different punctuation marks in each of six different typefaces.
-
-One day, while preparing that week's comics, they noticed a curious phenomenon. They had arranged their collection of type in a square on their workbench. It was easy to ensure that every row and column had only one of each punctuation mark. It was easy to ensure that every row and column had only one of each typeface. Despite their best efforts, they could not find a way to do both at the same time.
-
-They turned this puzzle into a two-player game that they could play as they worked. The rules were simple. Both players would grab a handful of type at the beginning of the day. Then, they would take turns playing by placing those pieces on the workbench. They had to place each piece next to a piece that had been played earlier. This created a grid of tiles that grew as they played. Each row and column of the grid could have only one of each punctuation mark and one of each typeface. The grid could have no more than six rows and six columns.
-
-The game continued in this way until one player was unable to find a legal move. That player would be the loser of the game and would have to come in a few minutes early the next morning to make coffee.
-
-\newpage
 
 \section{Overview}
-Grawlix is a version of the typesetters' game. The gameplay is the same but the components are a bit different. In this version, plastic tiles are used in place of metal type. Also, different colors are used to distinguish tiles instead of different typefaces.
-
 Grawlix is a game for two players that can be played in 15 \textendash 30 minutes. It is suitable for all ages, but is intended for players who are eight years old or older.
 
-\section{Components}
-To play Grawlix, the players will need a flat \textbf{play area} and thirty-six \textbf{tiles}. Each tile is labeled with one of six possible \textbf{glyphs} and one six possible \textbf{colors}.  There is one tile for each possible combination of glyph and color.
+Grawlix is a version of the typesetters' game (see the last page of this leaflet). The gameplay is the same but the components are a bit different. In this version, plastic tiles are used in place of metal type. Also, different colors are used to distinguish tiles instead of different typefaces.
 
-The six glyphs are: \smallat, \smallpound, \smalldollar, \smallpercent, \smallampersand, and \smallasterisk. The six colors are: red, orange, yellow, green, blue, and purple.
+\section{Components}
+To play Grawlix, the players will need a flat \textbf{play area} and thirty-six \textbf{tiles}. Each tile is labelled with one of six possible \textbf{glyphs} and one of six possible \textbf{colors}.  There is one tile for each possible combination of glyph and color.
+
+The six glyphs are: \smallat, \smallpound, \smalldollar, \smallpercent, \smallampersand, \smallasterisk. The six colors are: red, orange, yellow, green, blue, purple.
 
 \begin{figure}[h]
 \centering
-\begin{tikzpicture}[transform shape, scale=2.6]
+\begin{tikzpicture}[transform shape, scale=2.5]
 \foreach \i / \j in {0 / red, -0.5 / orange, -1.0 / yellow, -1.5 / green, -2.0 / blue, -2.5 / violet} {
 \node[tile] () at (0,\i) {};
 \pic () at (0,\i) {at={\j}};
@@ -200,59 +190,148 @@ When a new tile is played it must be placed in the play area such that:
 \newpage
 
 \section{Example}
-In the following example,
-it is early in the game. Three tiles are in the grid: the red \smallampersand, the blue \smallpound, and the yellow \smallasterisk.  The next player can place their tile in one of seven possible locations. These locations are indicated by the dotted squares in the diagram below.
+%In the following example,
+%it is early in the game. Three tiles are in the grid: the red \smallampersand, the blue \smallpound, and the yellow \smallasterisk.  The next player can place their tile in one of seven possible locations. These locations are indicated by the dotted squares in the diagram below.
+%
+%\begin{figure}[h]
+%\centering
+%%\includegraphics[scale=0.275]{Images/small_example.png}
+%\begin{tikzpicture}[transform shape, scale=2.5]
+%
+%\node[vacant] () at (-0.5,0) {};
+%\node[dotter] () at (-0.5,0) {};
+%
+%\node[vacant] () at (0.5,0.5) {};
+%\node[dotter, rotate=180] () at (0.5,0.5) {};
+%
+%\node[vacant] () at (0,0.5) {};
+%\node[dotter] () at (0,0.5) {};
+%
+%\node[vacant] () at (0,-0.5) {};
+%\node[dotter] () at (0,-0.5) {\Large{?}};
+%
+%\node[vacant] () at (0.5,-1) {};
+%\node[dotter] () at (0.5,-1) {};
+%
+%\node[vacant] () at (1,0) {};
+%\node[dotter, rotate=180] () at (1,0) {};
+%
+%\node[vacant] () at (1,-0.5) {};
+%\node[dotter, rotate=180] () at (1,-0.5) {};
+%
+%\node[tile] () at (0,0) {};
+%\pic () at (0,0) {ampersand={red}};
+%\node[tile] () at (0.5,0) {};
+%\pic () at (0.5,0) {octothorpe={blue}};
+%\node[tile] () at (0.5,-0.5) {};
+%\pic () at (0.5,-0.5) {asterisk={yellow}};
+%
+%\end{tikzpicture}
+%
+%\end{figure}
+%
+%Consider the location labelled with the question mark. The only tile in this column is the red \smallampersand\ and the only tile in this row is the yellow \smallasterisk. So, the allowed glyphs and colors for a tile placed in this location are:
+%\begin{description}[labelindent=0.25cm, itemsep=0pt]
+%  \item[Glyphs:] \smallat, \smallpound, \smalldollar, \smallpercent.
+%  \item[Colors:] orange, green, blue, or purple.
+%\end{description}
+%During the game, more tiles will be added to the grid. This will further restrict which tiles can be placed in each location.
+%
+Seventeen tiles are in the grid. The next player can place their tile in one of sixteen possible locations. These locations are indicated by the dotted squares in the diagram below.
+
+The grid has six columns, so a tile cannot be placed in a new column. The grid only has five rows, so a tile can be placed in a new row.
 
 \begin{figure}[h]
 \centering
-%\includegraphics[scale=0.275]{Images/small_example.png}
+%\includegraphics[scale=0.275]{Images/big_example.png}
 \begin{tikzpicture}[transform shape, scale=2.5]
 
-\node[vacant] () at (-0.5,0) {};
-\node[dotter] () at (-0.5,0) {};
+\node[vacant] at (0,0.5) {};
+\node[dotter] at (0,0.5) {\Large{?}};
+\node[vacant] at (0.5,0.5) {};
+\node[dotter, rotate=180] at (0.5,0.5) {};
+\node[vacant] at (2.5,0.5) {};
+\node[dotter, rotate=180] at (2.5,0.5) {};
 
-\node[vacant] () at (0.5,0.5) {};
-\node[dotter] () at (0.5,0.5) {};
+\node[vacant] at (1,0) {};
+\node[dotter, rotate=180] at (1,0) {};
+\node[vacant] at (2,0) {};
+\node[dotter] at (2,0) {};
+\node[vacant] at (1.5,-0.5) {};
+\node[dotter] at (1.5,-0.5) {};
+\node[vacant] at (2,-0.5) {};
+\node[dotter] at (2,-0.5) {};
+\node[vacant] at (1.5,-1) {};
+\node[dotter] at (1.5,-1) {};
 
-\node[vacant] () at (0,0.5) {};
-\node[dotter] () at (0,0.5) {};
+\node[vacant] at (0,-1) {};
+\node[dotter] at (0,-1) {};
+\node[vacant] at (1,-1) {};
+\node[dotter] at (1,-1) {};
 
-\node[vacant] () at (0,-0.5) {};
-\node[dotter] () at (0,-0.5) {\Large{?}};
+\node[vacant] at (0,-2) {};
+\node[dotter] at (0,-2) {};
+\node[vacant] at (0.5,-2) {};
+\node[dotter] at (0.5,-2) {};
+\node[vacant] at (1.5,-2) {};
+\node[dotter] at (1.5,-2) {};
+\node[vacant] at (2,-2) {};
+\node[dotter] at (2,-2) {};
+\node[vacant] at (2.5,-2) {};
+\node[dotter] at (2.5,-2) {};
 
-\node[vacant] () at (0.5,-1) {};
-\node[dotter] () at (0.5,-1) {};
+\node[vacant] at (1,-2.5) {};
+\node[dotter] at (1,-2.5) {\Large{!}};
 
-\node[vacant] () at (1,0) {};
-\node[dotter] () at (1,0) {};
 
-\node[vacant] () at (1,-0.5) {};
-\node[dotter] () at (1,-0.5) {};
+\foreach \i/\j/\k in {0.0/blue/at, 0.5/violet/ampersand, 2.5/orange/percent} {
+	\node[tile] () at (\i,0.0) {};
+	\pic () at (\i,0.0) {\k={\j}};
+}
 
-\node[tile] () at (0,0) {};
-\pic () at (0,0) {ampersand={red}};
-\node[tile] () at (0.5,0) {};
-\pic () at (0.5,0) {octothorpe={blue}};
-\node[tile] () at (0.5,-0.5) {};
-\pic () at (0.5,-0.5) {asterisk={yellow}};
+\foreach \i/\j/\k in {0.0/orange/asterisk, 0.5/red/dollar, 1.0/violet/at, 2.5/green/octothorpe} {
+	\node[tile] () at (\i,-0.5) {};
+	\pic () at (\i,-0.5) {\k={\j}};
+}
+
+\foreach \i/\j/\k in {0.5/blue/octothorpe, 2.0/green/at, 2.5/yellow/ampersand} {
+	\node[tile] () at (\i,-1.0) {};
+	\pic () at (\i,-1.0) {\k={\j}};
+}
+
+\foreach \i/\j/\k in {0.0/green/dollar, 0.5/yellow/asterisk, 1.0/blue/percent, 1.5/violet/octothorpe, 2.0/orange/ampersand, 2.5/red/at} {
+	\node[tile] () at (\i,-1.5) {};
+	\pic () at (\i,-1.5) {\k={\j}};
+}
+
+\foreach \i/\j/\k in {1.0/orange/octothorpe} {
+	\node[tile] () at (\i,-2.0) {};
+	\pic () at (\i,-2.0) {\k={\j}};
+}
 
 \end{tikzpicture}
 
 \end{figure}
 
-Consider the location labeled with the question mark. The only tile in this column is the red \smallampersand\ (ampersand) and the only tile in this row is the yellow \smallasterisk\ (asterisk). So, the allowed glyphs and colors for a tile placed in this location are:
-\begin{description}[labelindent=0.25cm]
-  \item[Glyphs:] \smallat, \smallpound, \smalldollar, \smallpercent.
-  \item[Colors:] orange, green, blue, or purple.
-\end{description}
-During the game, more tiles will be added to the grid. This will further restrict which tiles can be placed in each location.
+Consider the location labelled with the question mark. There are no tiles in this row. The tiles in this column are the blue \smallat, orange \smallasterisk, and green \smalldollar. So, the allowed glyphs are: \smallpound, \smallpercent, \smallampersand. The allowed colors are: red, yellow, purple.
+
+If a tile is placed in the location labelled with the question mark, then the grid will have six rows. If that happens, then future tiles cannot be placed in a new row. In particular, the location labelled with the exclamation point will become unavailable.
+
+
+\newpage
+
+\section{The Typesetters' Game}
+A pair of typesetters once worked for a local newspaper. Every Sunday, they produced a set of comic strips. This was challenging because it was so different from their regular work. In particular, the cartoonists sometimes used strings of punctuation to replace profanity. The typesetters often had to improvise to find enough type to print those sections. So, they set aside the type that they used for this purpose in a special case. Over time, they amassed a collection of thirty-six pieces of type. They had one for each of six punctuation marks in each of six typefaces.
+
+One day, while preparing that week's comics, they noticed a curious phenomenon. They had arranged their collection of type in a square on their workbench. It was easy to ensure that every row and column had only one of each punctuation mark. It was easy to ensure that every row and column had only one of each typeface. Despite their best efforts, they could not find a way to do both at the same time.
+
+They turned this puzzle into a game that they could play as they worked. Both players would grab a handful of type at the beginning of the day. Then, they would take turns playing by placing those pieces on the workbench. They had to place each piece next to a piece that had been played earlier. This created a grid of tiles that grew as they played. Each row and column of the grid could have only one of each punctuation mark and one of each typeface. The grid could have no more than six rows and six columns.
+
+The game continued in this way until one player was unable to find a legal move. That player would be the loser of the game and would have to come in early the next morning to make coffee.
 
 \vfill
 
 \textbf{Contact}: \href{mailto:grawlix.board.game@gmail.com}{grawlix.board.game@gmail.com}
-
-\smallskip
-
 
 \begin{tabular}{@{}m{\textwidth-\widthof{\Huge{\doclicenseIcon}}}@{}m{\widthof{\Huge{\doclicenseIcon}}}@{}}
 \footnotesize{This work is licensed under a Creative Commons\newline ``Attribute 4.0 International'' license.} & \Huge{\doclicenseIcon} \\
