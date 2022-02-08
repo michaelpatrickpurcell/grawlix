@@ -1,11 +1,6 @@
 # Grawlix
 Grawlix is an abstract strategy game for two players that can be played in 15-30 minutes.
 
-The file [grawlix_tiles.stl](grawlix_tiles.stl) contains models for Grawlix tiles that can be 3D printed. You will need to print six batches to produce a complete set of tiles. Each batch uses two colors of filament, a base color and an accent color. White or light gray works well for the base color. The accent colors can be any set of six distinct colors. The rules below suggest red, orange, yellow, green, blue, and purple. To print the tiles, start with the base color. Pause the printer when the glyphs begins printing.  Switch the filament to the desired accent color and then finish the print.
-
-Alternatively, the tiles from the popular game [Qwirkle](https://boardgamegeek.com/boardgame/25669/qwirkle) can be used to play Grawlix.  Qwirkle uses one hundred eight wooden tiles. Each tile has one of six different symbols on it in one of six different colors. There are three copies of each tile. So, the tiles from Qwirkle can be repurposed to form three sets of Grawlix tiles.
-
-
 ## The Typesetters' Game
 A pair of typesetters once worked for a local newspaper. Every Sunday, they produced a set of comic strips. This was challenging because it was so different from their regular work. In particular, the cartoonists sometimes used strings of punctuation to represent profanity. The typesetters often had to improvise to find enough type to print those sections. So, they set aside the type that they had used for this purpose in a special case. Over time, they amassed a collection of thirty-six pieces of type. They had one for each of six different punctuation marks in each of six different typefaces.
 
@@ -82,7 +77,7 @@ Consider the location labeled with the question mark. The only tile in this colu
   - __Glyphs__: @ (at symbol), # (pound sign), $ (dollar sign), % (percent symbol);
   - __Colors__: orange, green, blue, or purple.
 
-During the game, more tiles will be added to the grid. So, more constraints will be added. These constraints will further restrict which tiles can be placed in each location.
+During the game, more tiles will be added to the grid. This will further restrict which tiles can be placed in each location.
 
 ### Example 2
 In the following example, seventeen tiles are in the grid. The next player can place their tile in one of sixteen possible locations. These locations are indicated by the dotted squares in the diagram below.
@@ -101,3 +96,8 @@ If a tile is placed in the location labeled with the question mark, then the gri
 Grawlix is a term coined by [Mort Walker](https://en.wikipedia.org/wiki/Mort_Walker), creator of the Beetle Bailey comic strip. It is a name for a string of typographical symbols that writers use as a replacement for profanity.
 
 The typesetters' game is a re-themed version of the [thirty-six officers problem](https://en.wikipedia.org/wiki/Mutually_orthogonal_Latin_squares#Thirty-six_officers_problem).
+
+## Sourcing Components
+The file [grawlix_tiles.stl](grawlix_tiles.stl) contains models for Grawlix tiles that can be 3D printed. A complete set of tiles is comprised of six batches. Each batch uses two colors of filament, a base color and an accent color. White or light gray works well for the base color. The accent colors can be any set of six distinct colors. The rules below suggest red, orange, yellow, green, blue, and purple. To print the tiles, start with the base color. Pause the printer when the glyphs begins printing.  Switch the filament to the desired accent color and then finish the print.
+
+Alternatively, the tiles from the popular game [Qwirkle](https://boardgamegeek.com/boardgame/25669/qwirkle) can be used to play Grawlix.  Qwirkle uses one hundred eight wooden tiles. Each tile has one of six different symbols on it in one of six different colors. There are three copies of each tile. So, the tiles from Qwirkle can be repurposed to form three sets of Grawlix tiles.
