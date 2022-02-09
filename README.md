@@ -16,7 +16,7 @@ Grawlix is a version of the typesetters' game. The gameplay is the same but the 
 
 To play Grawlix, the players will need a flat _play area_ and thirty-six _tiles_. Each tile is labeled with one of six possible _glyphs_ and one of six possible _colors_.  There is one tile for each possible combination of glyph and color.
 
-The six glyphs are: @ (at symbol), \# (pound sign), $ (dollar sign), % (percent symbol), & (ampersand), and \* (asterisk). The six colors are: red, orange, yellow, green, blue, and purple.
+The six glyphs are: @ (at symbol), \# (pound sign), $ (dollar sign), % (percent symbol), & (ampersand), and \* (asterisk). The six colors are: red, orange, yellow, green, blue, and violet.
 
 ![All of the tiles in a 6x6 grid](/Images/grid_image.png)
 
@@ -76,7 +76,7 @@ In the following example, it is early in the game. Three tiles are in the grid: 
 
 Consider the location labeled with the question mark. The only tile in this column is the red & (ampersand) and the only tile in this row is the yellow * (asterisk). So, the allowed glyphs and colors for a tile placed in this location are:
   - __Glyphs__: @ (at symbol), # (pound sign), $ (dollar sign), % (percent symbol);
-  - __Colors__: orange, green, blue, or purple.
+  - __Colors__: orange, green, blue, or violet.
 
 During the game, more tiles will be added to the grid. This will further restrict which tiles can be placed in each location.
 
@@ -89,7 +89,7 @@ The grid has six columns, so a tile cannot be placed in a new column. The grid o
 
 Consider the location labeled with the question mark. There are no tiles in this row. The tiles in this column are the blue @ (at symbol), orange * (asterisk), and green \$ (dollar sign). So, the allowed glyphs and colors for a tile placed in this location are:
   - __Glyphs__: # (pound sign), \% (percent symbol), \& (ampersand);
-  - __Colors__: red, yellow, purple.
+  - __Colors__: red, yellow, violet.
 
 If a tile is placed in the location labeled with the question mark, then the grid will have six rows. If that happens, then future tiles cannot be placed in a new row. In particular, the location labeled with the exclamation point will become unavailable.
 
@@ -99,6 +99,6 @@ Grawlix is a term coined by [Mort Walker](https://en.wikipedia.org/wiki/Mort_Wal
 The typesetters' game is a re-themed version of the [thirty-six officers problem](https://en.wikipedia.org/wiki/Mutually_orthogonal_Latin_squares#Thirty-six_officers_problem).
 
 ## Sourcing Components
-The file [grawlix_tiles.stl](grawlix_tiles.stl) contains models for Grawlix tiles that can be 3D printed. A complete set of tiles is comprised of six batches. Each batch uses two colors of filament, a base color and an accent color. White or light gray works well for the base color. The accent colors can be any set of six distinct colors. The rules below suggest red, orange, yellow, green, blue, and purple. To print the tiles, start with the base color. Pause the printer when the glyphs begins printing.  Switch the filament to the desired accent color and then finish the print.
+The file [grawlix_tiles.stl](grawlix_tiles.stl) contains models for Grawlix tiles that can be 3D printed. A complete set of tiles is comprised of six batches. Each batch uses two colors of filament, a base color and an accent color. White or light gray works well for the base color. The accent colors can be any set of six distinct colors. The rules below suggest red, orange, yellow, green, blue, and violet. To print the tiles, start with the base color. Pause the printer when the glyphs begins printing.  Switch the filament to the desired accent color and then finish the print.
 
 Alternatively, the tiles from the popular game [Qwirkle](https://boardgamegeek.com/boardgame/25669/qwirkle) can be used to play Grawlix.  Qwirkle uses one hundred eight wooden tiles. Each tile has one of six different symbols on it in one of six different colors. There are three copies of each tile. So, the tiles from Qwirkle can be repurposed to form three sets of Grawlix tiles.
