@@ -1,11 +1,7 @@
 \documentclass[a4paper, DIV=15]{scrartcl}
 \usepackage{grawlix}
 \usepackage{pullquote}
-\usepackage{graphicx}
 \usepackage{multicol}
-\usepackage{enumitem}
-\usepackage{lipsum}
-\usepackage{calc}
 
 \tolerance=1
 \emergencystretch=\maxdimen
@@ -21,20 +17,6 @@
   beforeskip=0.5\baselineskip,
   afterskip=0.25\baselineskip,
 ]{section}
-
-% Adjust spacing before and after subsection headings
-\RedeclareSectionCommand[
-  runin=false,
-  beforeskip=0.5\baselineskip,
-  afterskip=-0.25\baselineskip
-]{subsection}
-
-% Adjust spacing before and after subsubsection headings
-\RedeclareSectionCommand[
-  runin=false,
-  beforeskip=0.5\baselineskip,
-  afterskip=-0.25\baselineskip
-]{subsubsection}
 
 \newlength{\glen}
 \newlength{\rlen}
@@ -73,13 +55,6 @@
 \end{tikzpicture}
 \end{center}
 }
-%{
-%\begin{center}
-%\setmainfont[Scale=3.0]{Cooper Black}
-%\Huge
-%Grawlix
-%\end{center}
-%}
 \vspace{-0.5cm}
 {
 \begin{center}
@@ -103,37 +78,12 @@ Grawlix is a version of the typesetters' game (see below). The players take turn
 The winner is the player who is able to force their opponent into a position where they have no legal moves remaining.
 \end{multicols}
 
-%\begin{center}
-%\begin{tikzpicture}[transform shape, scale=2.33]
-%\node[tile, rotate=-30] () at (-2.5,0) {};
-%\pic[rotate=-30] () at (-2.5,0) {at={red}};
-%
-%\node[tile, rotate=15] () at (-1.5,0) {};
-%\pic[rotate=15] () at (-1.5,0) {octothorpe={orange}};
-%
-%\node[tile, rotate=-15] () at (-0.5,0) {};
-%\pic[rotate=-15] () at (-0.5,0) {dollar={yellow}};
-%
-%\node[tile, rotate=15] () at (0.5,0) {};
-%\pic[rotate=15] () at (0.5,0) {percent={green}};
-%
-%\node[tile, rotate=-15] () at (1.5,0) {};
-%\pic[rotate=-15] () at (1.5,0) {ampersand={blue}};
-%
-%\node[tile, rotate=30] () at (2.5,0) {};
-%\pic[rotate=30] () at (2.5,0) {asterisk={violet}};
-%
-%\end{tikzpicture}
-%\end{center}
-
-%\vspace{-0.75cm}
 \vfill
 
 \setkomafont{section}{\setmainfont{Quicksand-Bold}\Huge\center}
 \section*{The Typesetters' Game}
 \begin{pullquote}
 {object={
-%\includegraphics[scale=0.2]{Images/cover_image.png}},
 \begin{tikzpicture}[transform shape, scale=2.33]
 \foreach \i/\j/\k in {0.0/blue/at, 0.5/violet/ampersand, 1.0/yellow/dollar, 1.5/green/asterisk, 2.0/red/octothorpe, 2.5/orange/percent} {
 	\node[tile] () at (\i,0.0) {};
