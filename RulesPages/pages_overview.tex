@@ -1,0 +1,36 @@
+\setmainfont{Quicksand}[
+	UprightFont = *-Medium,
+	BoldFont = *-Bold]
+\raggedright
+
+\section{Overview}
+Grawlix is a game for two players that can be played in 15 \textendash 30 minutes. It is suitable for all ages, but is intended for players who are eight years old or older.
+
+\input{RulesPages/pages_overview_paragraph}
+
+\section{Components}
+To play Grawlix, the players will need a flat \textbf{play area} and thirty-six \textbf{tiles}. Each tile is labelled with one of six possible \textbf{glyphs} and one of six possible \textbf{colors}.  There is one tile for each possible combination of glyph and color.
+
+The six glyphs are: \smallat, \smallpound, \smalldollar, \smallpercent, \smallampersand, \smallasterisk. The six colors are: red, orange, yellow, green, blue, violet.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[transform shape, scale=2.5]
+\foreach \i / \j in {0 / red, -0.5 / orange, -1.0 / yellow, -1.5 / green, -2.0 / blue, -2.5 / violet} {
+\node[tile] () at (0,\i) {};
+\pic () at (0,\i) {at={\j}};
+\node[tile] () at (0.5,\i) {};
+\pic () at (0.5,\i) {octothorpe={\j}};
+\node[tile] () at (1,\i) {};
+\pic () at (1,\i) {dollar={\j}};
+\node[tile] () at (1.5,\i) {};
+\pic () at (1.5,\i) {percent={\j}};
+\node[tile] () at (2,\i) {};
+\pic () at (2,\i) {ampersand={\j}};
+\node[tile] () at (2.5,\i) {};
+\pic () at (2.5,\i) {asterisk={\j}};
+}
+
+\end{tikzpicture}
+
+\end{figure}
