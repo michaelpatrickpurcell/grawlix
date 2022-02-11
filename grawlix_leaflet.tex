@@ -16,58 +16,23 @@
 \newcommand{\smallampersand}{{\setmainfont{Comic Neue-Bold} \large \$}}
 \newcommand{\smallasterisk}{{\setmainfont{Quicksand-Bold} \Huge \raisebox{-0.25ex}{\textasteriskcentered{}}}}
 
-\newlength{\glen}
-\newlength{\rlen}
-\newlength{\alen}
-\newlength{\wlen}
-\newlength{\llen}
-\newlength{\ilen}
-
 \begin{document}
 
 {
 \begin{center}
 \setmainfont{Quicksand-Medium}
 \footnotesize
-Version 0.1
+Version 1.0
 \end{center}
 
 \begin{center}
 \setmainfont[Scale=2.175]{Cooper Black}
 \Huge Grawlix
-\end{center}
-
-%{
-%\begin{center}
-%\setmainfont[Scale=1.66]{Cooper Black}
-%\Huge
-%\setlength{\glen}{\widthof{G}/2 + \widthof{r}/2 + 8pt}
-%\setlength{\rlen}{\glen + \widthof{r}/2 + \widthof{a}/2 + 8pt}
-%\setlength{\alen}{\rlen + \widthof{a}/2 + \widthof{w}/2 + 8pt}
-%\setlength{\wlen}{\alen + \widthof{w}/2 + \widthof{l}/2 + 8pt}
-%\setlength{\llen}{\wlen + \widthof{l}/2 + \widthof{i}/2 + 8pt}
-%\setlength{\ilen}{\llen + \widthof{i}/2 + \widthof{x}/2 + 8pt}
-%
-%\contourlength{0.25mm}
-%\begin{tikzpicture}
-%\node[tile, inner sep = 3pt] () at (0,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{red}{G}}};
-%\node[tile, inner sep = 3pt] () at (\glen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{orange}{r}}};
-%\node[tile, inner sep = 3pt] () at (\rlen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{yellow}{a}}};
-%\node[tile, inner sep = 3pt] () at (\alen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{green}{w}}};
-%\node[tile, inner sep = 3pt] () at (\wlen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{blue}{l}}};
-%\node[tile, inner sep = 3pt] () at (\llen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{violet}{i}}};
-%\node[tile, inner sep = 3pt] () at (\ilen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{red}{x}}};
-%
-%\end{tikzpicture}
-%
-%\end{center}
-%}
-\begin{center}
 \setmainfont{Quicksand-Medium}
-\huge The Typesetters' Game%A Tale of Two Typesetters
+\huge The Typesetters' Game
 \end{center}
 
-\vfill%\vspace{1.0cm}
+\vfill
 
 \begin{center}
 \begin{tikzpicture}[transform shape, scale=2.5]
@@ -218,60 +183,12 @@ When a new tile is played it must be placed in the play area such that:
 \newpage
 
 \section{Example}
-%In the following example,
-%it is early in the game. Three tiles are in the grid: the red \smallampersand, the blue \smallpound, and the yellow \smallasterisk.  The next player can place their tile in one of seven possible locations. These locations are indicated by the dotted squares in the diagram below.
-%
-%\begin{figure}[h]
-%\centering
-%%\includegraphics[scale=0.275]{Images/small_example.png}
-%\begin{tikzpicture}[transform shape, scale=2.5]
-%
-%\node[vacant] () at (-0.5,0) {};
-%\node[dotter] () at (-0.5,0) {};
-%
-%\node[vacant] () at (0.5,0.5) {};
-%\node[dotter, rotate=180] () at (0.5,0.5) {};
-%
-%\node[vacant] () at (0,0.5) {};
-%\node[dotter] () at (0,0.5) {};
-%
-%\node[vacant] () at (0,-0.5) {};
-%\node[dotter] () at (0,-0.5) {\Large{?}};
-%
-%\node[vacant] () at (0.5,-1) {};
-%\node[dotter] () at (0.5,-1) {};
-%
-%\node[vacant] () at (1,0) {};
-%\node[dotter, rotate=180] () at (1,0) {};
-%
-%\node[vacant] () at (1,-0.5) {};
-%\node[dotter, rotate=180] () at (1,-0.5) {};
-%
-%\node[tile] () at (0,0) {};
-%\pic () at (0,0) {ampersand={red}};
-%\node[tile] () at (0.5,0) {};
-%\pic () at (0.5,0) {octothorpe={blue}};
-%\node[tile] () at (0.5,-0.5) {};
-%\pic () at (0.5,-0.5) {asterisk={yellow}};
-%
-%\end{tikzpicture}
-%
-%\end{figure}
-%
-%Consider the location labelled with the question mark. The only tile in this column is the red \smallampersand\ and the only tile in this row is the yellow \smallasterisk. So, the allowed glyphs and colors for a tile placed in this location are:
-%\begin{description}[labelindent=0.25cm, itemsep=0pt]
-%  \item[Glyphs:] \smallat, \smallpound, \smalldollar, \smallpercent.
-%  \item[Colors:] orange, green, blue, or violet.
-%\end{description}
-%During the game, more tiles will be added to the grid. This will further restrict which tiles can be placed in each location.
-%
 Seventeen tiles are in the grid. The next player can place their tile in one of sixteen possible locations. These locations are indicated by the dotted squares in the diagram below.
 
 The grid has six columns, so a tile cannot be placed in a new column. The grid only has five rows, so a tile can be placed in a new row.
 
 \begin{figure}[h]
 \centering
-%\includegraphics[scale=0.275]{Images/big_example.png}
 \begin{tikzpicture}[transform shape, scale=2.5]
 
 \node[vacant] at (0,0.5) {};
