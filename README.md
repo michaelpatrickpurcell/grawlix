@@ -1,11 +1,14 @@
-# Grawlix
-Grawlix is an abstract strategy game for two players that can be played in 15-30 minutes.
+![Fancy title graphic](/Images/fancy_title.png)
+Designed by Michael Purcell and Dannielle Harden.
+
+Grawlix is an abstract strategy game for two players that can be played in 15-30 minutes. It is suitable for all ages, but is intended for players who are eight years old or older.
+
+__Contact__: grawlix.board.game@gmail.com
 
 ## The Typesetters' Game
 A pair of typesetters once worked for a local newspaper. Every Sunday, they produced a set of comic strips. This was challenging because it was so different from their regular work. In particular, the cartoonists sometimes used strings of punctuation to represent profanity. The typesetters often had to improvise to find enough type to print those sections. So, they set aside the type that they used for this purpose in a special case. Over time, they amassed a collection of thirty-six pieces of type. They had one for each of six different punctuation marks in each of six different typefaces.
 
 One day, while preparing that week's comics, they noticed a curious phenomenon. They had arranged their collection of type in a square on their workbench. It was easy to ensure that every row and column had only one of each punctuation mark. It was easy to ensure that every row and column had only one of each typeface. Despite their best efforts, they could not find a way to do both at the same time.
-<!-- If they eliminated one punctuation mark and one typeface, then the problem was easy. If they added one punctuation mark and one typeface, then the problem was easy. There was something special about six. -->
 
 They turned this puzzle into a two-player game that they could play as they worked. The rules were simple. Both players would grab a handful of type at the beginning of the day. Then, they would take turns playing by placing those pieces on the workbench. They had to place each piece next to a piece that had been played earlier. This created a grid of tiles that grew as they played. Each row and column of the grid could have only one of each punctuation mark and one of each typeface. The grid could have no more than six rows and six columns.
 
