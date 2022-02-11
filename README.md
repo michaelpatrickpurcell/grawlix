@@ -5,6 +5,21 @@ Grawlix is an abstract strategy game for two players that can be played in 15-30
 
 __Contact__: grawlix.board.game@gmail.com
 
+## In this Repository
+This repository contains several versions of the rules, 2D and 3D print-and-play files, and a sell sheet.
+  - Rules
+    - The file [Rules Leaflet](grawlix_leaflet.pdf) is a pdf version of the rules that can be printed and folded to create a tri-fold leaflet.
+    - The file [Rules Pages](grawlix_pages.pdf) is a pdf version of the rules that is designed to be read on screens.
+    - Finally, this README file contains a markdown version of the rules which can be found below.
+  - Print-and-Play Files
+    - The file [Grawlix Tiles](PnPFiles/3DPnP/grawlix_tiles.stl) contains models for tiles that can be 3D printed. A complete set of tiles is comprised of six batches. Each batch uses two colors of filament, a base color and an accent color. White or light gray works well for the base color. The accent colors can be any set of six distinct colors. The rules below suggest red, orange, yellow, green, blue, and violet. To print the tiles, start with the base color. Pause the printer when the glyphs begins printing.  Switch the filament to the desired accent color and then finish the print.
+    - The file [Grawlix Tiles (Flat)](PnPFiles/3DPnP/grawlix_tiles_flat.stl) contains models for flat-topped tiles that can be 3D printed.  A complete set of tiles is comprised of three batches. These can be printed using a single color. These tiles are intended to make it possible for people who don't want to change colors in each of six different batches to print platic tiles that can be used to play the game. For most people, it will probably be easier, and cheaper, to use one-inch wodden squares instead.
+    - The file [Grawlix Stickers (Simple)](PnPFiles/2DPnP/grawlix_pnp_stickers_simple) contains images which can be printed on label paper, cut out, and affixed to one-inch square tiles to create a set of Grawlix tiles.
+    - The  file [Grawlix Stickers](PnPFiles/2DPnP/grawlix_pnp_stickers.pdf) also contains images which can be printed on label paper, cut out, and affixed to one-inch square tiles to create a set of Grawlix tiles.  These images include additional markings that indicate the color of each glyph. These stickers are intended to make it possible for people with impaired color vision or who don't have easy access to a color printer, to play the game.
+  - Sell Sheet
+     - The [sell sheet](sell_sheet.pdf) is a one-page pdf document that contains a high-level overview of the game. This document is primarily intended for prospective publishers rather than players.
+
+
 ## The Typesetters' Game
 A pair of typesetters once worked for a local newspaper. Every Sunday, they produced a set of comic strips. This was challenging because it was so different from their regular work. In particular, the cartoonists sometimes used strings of punctuation to represent profanity. The typesetters often had to improvise to find enough type to print those sections. So, they set aside the type that they used for this purpose in a special case. Over time, they amassed a collection of thirty-six pieces of type. They had one for each of six different punctuation marks in each of six different typefaces.
 
