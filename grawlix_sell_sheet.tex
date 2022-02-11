@@ -5,6 +5,7 @@
 \usepackage{multicol}
 \usepackage{enumitem}
 \usepackage{lipsum}
+\usepackage{calc}
 
 \tolerance=1
 \emergencystretch=\maxdimen
@@ -35,20 +36,51 @@
   afterskip=-0.25\baselineskip
 ]{subsubsection}
 
+\newlength{\glen}
+\newlength{\rlen}
+\newlength{\alen}
+\newlength{\wlen}
+\newlength{\llen}
+\newlength{\ilen}
+
 %\raggedright
 \begin{document}
 
 \thispagestyle{empty}
-\enlargethispage{4\baselineskip} % Move the bottom line (author and date) down a bit
-
+\enlargethispage{3\baselineskip} % Move the bottom line (author and date) down a bit
 
 {
-\begin{center}
 \setmainfont[Scale=3.0]{Cooper Black}
 \Huge
-Grawlix
+\setlength{\glen}{\widthof{G}/2 + \widthof{r}/2 + 16pt}
+\setlength{\rlen}{\glen + \widthof{r}/2 + \widthof{a}/2 + 16pt}
+\setlength{\alen}{\rlen + \widthof{a}/2 + \widthof{w}/2 + 16pt}
+\setlength{\wlen}{\alen + \widthof{w}/2 + \widthof{l}/2 + 16pt}
+\setlength{\llen}{\wlen + \widthof{l}/2 + \widthof{i}/2 + 16pt}
+\setlength{\ilen}{\llen + \widthof{i}/2 + \widthof{x}/2 + 16pt}
+
+\contourlength{0.75mm}
+\begin{center}
+\begin{tikzpicture}
+\node[tile, inner sep = 6pt, ultra thick] () at (0,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{red}{G}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\glen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{orange}{r}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\rlen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{yellow}{a}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\alen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{green}{w}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\wlen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{blue}{l}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\llen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{violet}{i}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\ilen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{red}{x}}};
+
+\end{tikzpicture}
 \end{center}
 }
+%{
+%\begin{center}
+%\setmainfont[Scale=3.0]{Cooper Black}
+%\Huge
+%Grawlix
+%\end{center}
+%}
+\vspace{-0.5cm}
 {
 \begin{center}
 \setmainfont{Quicksand-Medium}
@@ -71,31 +103,33 @@ Grawlix is a version of the typesetters' game (see below). The players take turn
 The winner is the player who is able to force their opponent into a position where they have no legal moves remaining.
 \end{multicols}
 
-\begin{center}
-\begin{tikzpicture}[transform shape, scale=2.33]
-\node[tile, rotate=-30] () at (-2.5,0) {};
-\pic[rotate=-30] () at (-2.5,0) {at={red}};
+%\begin{center}
+%\begin{tikzpicture}[transform shape, scale=2.33]
+%\node[tile, rotate=-30] () at (-2.5,0) {};
+%\pic[rotate=-30] () at (-2.5,0) {at={red}};
+%
+%\node[tile, rotate=15] () at (-1.5,0) {};
+%\pic[rotate=15] () at (-1.5,0) {octothorpe={orange}};
+%
+%\node[tile, rotate=-15] () at (-0.5,0) {};
+%\pic[rotate=-15] () at (-0.5,0) {dollar={yellow}};
+%
+%\node[tile, rotate=15] () at (0.5,0) {};
+%\pic[rotate=15] () at (0.5,0) {percent={green}};
+%
+%\node[tile, rotate=-15] () at (1.5,0) {};
+%\pic[rotate=-15] () at (1.5,0) {ampersand={blue}};
+%
+%\node[tile, rotate=30] () at (2.5,0) {};
+%\pic[rotate=30] () at (2.5,0) {asterisk={violet}};
+%
+%\end{tikzpicture}
+%\end{center}
 
-\node[tile, rotate=15] () at (-1.5,0) {};
-\pic[rotate=15] () at (-1.5,0) {octothorpe={orange}};
+%\vspace{-0.75cm}
+\vfill
 
-\node[tile, rotate=-15] () at (-0.5,0) {};
-\pic[rotate=-15] () at (-0.5,0) {dollar={yellow}};
-
-\node[tile, rotate=15] () at (0.5,0) {};
-\pic[rotate=15] () at (0.5,0) {percent={green}};
-
-\node[tile, rotate=-15] () at (1.5,0) {};
-\pic[rotate=-15] () at (1.5,0) {ampersand={blue}};
-
-\node[tile, rotate=30] () at (2.5,0) {};
-\pic[rotate=30] () at (2.5,0) {asterisk={violet}};
-
-\end{tikzpicture}
-\end{center}
-
-\vspace{-0.75cm}
-\setkomafont{section}{\setmainfont{Quicksand-Bold}\Large\center}
+\setkomafont{section}{\setmainfont{Quicksand-Bold}\Huge\center}
 \section*{The Typesetters' Game}
 \begin{pullquote}
 {object={

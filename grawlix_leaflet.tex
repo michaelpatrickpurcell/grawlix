@@ -16,6 +16,13 @@
 \newcommand{\smallampersand}{{\setmainfont{Comic Neue-Bold} \large \$}}
 \newcommand{\smallasterisk}{{\setmainfont{Quicksand-Bold} \Huge \raisebox{-0.25ex}{\textasteriskcentered{}}}}
 
+\newlength{\glen}
+\newlength{\rlen}
+\newlength{\alen}
+\newlength{\wlen}
+\newlength{\llen}
+\newlength{\ilen}
+
 \begin{document}
 
 {
@@ -25,20 +32,42 @@
 Version 0.1
 \end{center}
 
-
 \begin{center}
 \setmainfont[Scale=2.175]{Cooper Black}
 \Huge Grawlix
 \end{center}
 
+%{
+%\begin{center}
+%\setmainfont[Scale=1.66]{Cooper Black}
+%\Huge
+%\setlength{\glen}{\widthof{G}/2 + \widthof{r}/2 + 8pt}
+%\setlength{\rlen}{\glen + \widthof{r}/2 + \widthof{a}/2 + 8pt}
+%\setlength{\alen}{\rlen + \widthof{a}/2 + \widthof{w}/2 + 8pt}
+%\setlength{\wlen}{\alen + \widthof{w}/2 + \widthof{l}/2 + 8pt}
+%\setlength{\llen}{\wlen + \widthof{l}/2 + \widthof{i}/2 + 8pt}
+%\setlength{\ilen}{\llen + \widthof{i}/2 + \widthof{x}/2 + 8pt}
+%
+%\contourlength{0.25mm}
+%\begin{tikzpicture}
+%\node[tile, inner sep = 3pt] () at (0,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{red}{G}}};
+%\node[tile, inner sep = 3pt] () at (\glen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{orange}{r}}};
+%\node[tile, inner sep = 3pt] () at (\rlen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{yellow}{a}}};
+%\node[tile, inner sep = 3pt] () at (\alen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{green}{w}}};
+%\node[tile, inner sep = 3pt] () at (\wlen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{blue}{l}}};
+%\node[tile, inner sep = 3pt] () at (\llen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{violet}{i}}};
+%\node[tile, inner sep = 3pt] () at (\ilen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{red}{x}}};
+%
+%\end{tikzpicture}
+%
+%\end{center}
+%}
 \begin{center}
 \setmainfont{Quicksand-Medium}
-\Huge A Tale of Two Typesetters
+\huge The Typesetters' Game%A Tale of Two Typesetters
 \end{center}
 
-\bigskip
-
-\vfill
+\vfill%\vspace{1.0cm}
 
 \begin{center}
 \begin{tikzpicture}[transform shape, scale=2.5]
@@ -73,14 +102,14 @@ Version 0.1
 	\pic () at (\i,-2.5) {\k={\j}};
 }
 
-\node[tile, rotate=15] () at (1.25,-3.375) {};
-\pic[rotate=15] () at (1.25, -3.375) {dollar={violet}};
+\node[tile, rotate=15] () at (1.25,-3.575) {};
+\pic[rotate=15] () at (1.25, -3.575) {dollar={violet}};
 
-\node[tile, rotate=-30] () at (2.25,-3.375) {};
-\pic[rotate=-30] () at (2.25, -3.375) {dollar={blue}};
+\node[tile, rotate=-30] () at (2.25,-3.575) {};
+\pic[rotate=-30] () at (2.25, -3.575) {dollar={blue}};
 
-\node[tile, rotate=30] () at (0.25,-3.375) {};
-\pic[rotate=30] () at (0.25, -3.375) {asterisk={violet}};
+\node[tile, rotate=30] () at (0.25,-3.575) {};
+\pic[rotate=30] () at (0.25, -3.575) {asterisk={violet}};
 \end{tikzpicture}
 
 \end{center}
@@ -89,11 +118,10 @@ Version 0.1
 
 \begin{center}
 \setmainfont{Quicksand-Medium}
-\Huge Michael Purcell\\
+\huge Michael Purcell\\
 Dannielle Harden
 \end{center}
 }
-
 \newpage
 \setmainfont{Quicksand}[
 	UprightFont = *-Medium,
