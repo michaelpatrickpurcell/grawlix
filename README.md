@@ -3,7 +3,10 @@ Designed by Michael Purcell and Dannielle Harden.
 
 Grawlix is an abstract strategy game for two players that can be played in 15-30 minutes. It is suitable for all ages, but is intended for players who are eight years old or older.
 
-This repository contains: [the rules documents](RulesDocuments) needed to play Grawlix, [2D and 3D print-and-play files](PnPFiles), and a [sell sheet](grawlix_sell_sheet.pdf).
+This repository contains:
+  - the [rules documents](RulesDocuments) needed to play Grawlix,
+  - 2D and 3D [print-and-play files](PnPFiles),
+  - a [sell sheet](grawlix_sell_sheet.pdf) for any potential publishers.
 
 __Contact__: grawlix.board.game@gmail.com
 
