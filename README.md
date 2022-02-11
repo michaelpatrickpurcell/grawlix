@@ -6,7 +6,7 @@ Grawlix is an abstract strategy game for two players that can be played in 15-30
 __Contact__: grawlix.board.game@gmail.com
 
 ## In this Repository
-This repository contains several versions of the rules, 2D and 3D print-and-play files, and a sell sheet.
+This repository contains several versions of the rules needed to play Grawlix, 2D and 3D print-and-play files, and a sell sheet.
   - Rules
     - The file [Rules Leaflet](grawlix_leaflet.pdf) is a pdf version of the rules that can be printed and folded to create a tri-fold leaflet.
     - The file [Rules Pages](grawlix_pages.pdf) is a pdf version of the rules that is designed to be read on screens.
