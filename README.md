@@ -1,5 +1,5 @@
 ![Fancy title graphic](/Images/fancy_title.png)
-### Designed by Michael Purcell and Dannielle Harden.
+__Designed by Michael Purcell and Dannielle Harden.__
 
 Grawlix is an abstract strategy game for two players that can be played in 15-30 minutes. It is suitable for all ages, but is intended for players who are eight years old or older.
 
