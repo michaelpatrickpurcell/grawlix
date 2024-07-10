@@ -1,15 +1,43 @@
-\documentclass[a4paper, 10pt, notumble, nofoldmark]{leaflet}
+\documentclass[10pt, parskip=half]{scrarticle}
 
 \usepackage{grawlix}
+\usepackage[paperheight=210mm, paperwidth=99mm, margin=0.75cm]{geometry}
+
+\setkomafont{section}{\setmainfont{Quicksand-Bold}\LARGE}
+\setkomafont{subsection}{\setmainfont{Quicksand-Bold}\Large}
+\setkomafont{subsubsection}{\setmainfont{Quicksand-Bold}\large}
+
+% Adjust spacing before and after section headings
+\RedeclareSectionCommand[
+  runin=false,
+  beforeskip=0.5\baselineskip,
+  afterskip=0.25\baselineskip
+]{section}
+
+% Adjust spacing before and after subsection headings
+\RedeclareSectionCommand[
+  runin=false,
+  beforeskip=0.5\baselineskip,
+  afterskip=0.25\baselineskip
+]{subsection}
+
+% Adjust spacing before and after subsubsection headings
+\RedeclareSectionCommand[
+  runin=false,
+  beforeskip=0.5\baselineskip,
+  afterskip=0.25\baselineskip
+]{subsubsection}
+
+
 
 \begin{document}
 
+\include{RulesPages/cover}
+\include{RulesPages/typesetters_game}
 \include{RulesPages/pages_overview}
 \include{RulesPages/grid}
 \include{RulesPages/gameplay}
 \input{RulesPages/example}
 \input{RulesPages/small_print}
-\include{RulesPages/cover}
-\include{RulesPages/typesetters_game}
 
 \end{document}
