@@ -4,81 +4,49 @@
 \begin{document}
 
 \begin{tikzpicture}[transform shape, scale=4.5]
-%\foreach \i / \j / \k in {0/red/A, -0.7/orange/B, -1.4/yellow/C, -2.1/green/D, -2.8/blue/E, -3.5/violet/F} {
 \foreach \i / \j / \k in {0/red/R, -0.7/orange/O, -1.4/yellow/Y, -2.1/green/G, -2.8/blue/B, -3.5/violet/V} {
 
 \node[tile, draw=lightgray, ultra thick] () at (0,\i) {};
 \pic () at (0,\i) {at={\j}};
-\node () at (-0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=90] () at (-0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=180] () at (0.21,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=270] () at (0.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-
-%\node () at (-0.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k1}};
-%\node[rotate=90] () at (-0.21,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k1}};
-%\node[rotate=180] () at (0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k1}};
-%\node[rotate=270] () at (0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k1}};
+\node () at (-0.21,\i+0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=90] () at (-0.2,\i-0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=180] () at (0.21,\i-0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=270] () at (0.2,\i+0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
 
 \node[tile, draw=lightgray, ultra thick] () at (0.7,\i) {};
 \pic () at (0.7,\i) {octothorpe={\j}};
-\node () at (0.7-0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=90] () at (0.7-0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=180] () at (0.7+0.21,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=270] () at (0.7+0.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-
-
-%\node () at (0.5,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k2}};
-%\node[rotate=90] () at (0.49,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k2}};
-%\node[rotate=180] () at (0.9,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k2}};
-%\node[rotate=270] () at (0.91,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k2}};
+\node () at (0.7-0.21,\i+0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=90] () at (0.7-0.2,\i-0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=180] () at (0.7+0.21,\i-0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=270] () at (0.7+0.2,\i+0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
 
 \node[tile, draw=lightgray, ultra thick] () at (1.4,\i) {};
 \pic () at (1.4,\i) {dollar={\j}};
-\node () at (1.4-0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=90] () at (1.4-0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=180] () at (1.4+0.21,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=270] () at (1.4+0.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-
-%\node () at (1.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k3}};
-%\node[rotate=90] () at (1.19,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k3}};
-%\node[rotate=180] () at (1.6,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k3}};
-%\node[rotate=270] () at (1.61,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k3}};
+\node () at (1.4-0.21,\i+0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=90] () at (1.4-0.2,\i-0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=180] () at (1.4+0.21,\i-0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=270] () at (1.4+0.2,\i+0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
 
 \node[tile, draw=lightgray, ultra thick] () at (2.1,\i) {};
 \pic () at (2.1,\i) {percent={\j}};
-\node () at (2.1-0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=90] () at (2.1-0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=180] () at (2.1+0.21,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=270] () at (2.1+0.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-
-%\node () at (1.9,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k4}};
-%\node[rotate=90] () at (1.89,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k4}};
-%\node[rotate=180] () at (2.3,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k4}};
-%\node[rotate=270] () at (2.31,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k4}};
+\node () at (2.1-0.21,\i+0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=90] () at (2.1-0.2,\i-0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=180] () at (2.1+0.21,\i-0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=270] () at (2.1+0.2,\i+0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
 
 \node[tile, draw=lightgray, ultra thick] () at (2.8,\i) {};
 \pic () at (2.8,\i) {ampersand={\j}};
-\node () at (2.8-0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=90] () at (2.8-0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=180] () at (2.8+0.21,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=270] () at (2.8+0.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-
-%\node () at (2.6,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k5}};
-%\node[rotate=90] () at (2.59,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k5}};
-%\node[rotate=180] () at (3.0,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k5}};
-%\node[rotate=270] () at (3.01,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k5}};
+\node () at (2.8-0.21,\i+0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=90] () at (2.8-0.2,\i-0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=180] () at (2.8+0.21,\i-0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=270] () at (2.8+0.2,\i+0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
 
 \node[tile, draw=lightgray, ultra thick] () at (3.5,\i) {};
 \pic () at (3.5,\i) {asterisk={\j}};
-\node () at (3.5-0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=90] () at (3.5-0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=180] () at (3.5+0.21,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-\node[rotate=270] () at (3.5+0.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
-
-%\node () at (3.3,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k6}};
-%\node[rotate=90] () at (3.29,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k6}};
-%\node[rotate=180] () at (3.7,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k6}};
-%\node[rotate=270] () at (3.71,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k6}};
+\node () at (3.5-0.21,\i+0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=90] () at (3.5-0.2,\i-0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=180] () at (3.5+0.21,\i-0.2) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=270] () at (3.5+0.2,\i+0.21) {};%{{\fontspec[Scale=0.2]{Card Characters} \k}};
 
 }
 

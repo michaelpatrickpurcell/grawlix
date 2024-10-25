@@ -1,0 +1,62 @@
+\documentclass{standalone}
+\usepackage{grawlix}
+
+\pagestyle{empty}
+
+\begin{document}
+{
+%\begin{center}
+%\setmainfont[Scale=2.175]{Cooper Black}
+%\Huge Grawlix
+%\setmainfont{Quicksand-Medium}
+%\huge The Typesetters' Game
+%\end{center}
+%\begin{center}
+\begin{tikzpicture}[transform shape, scale=2.5]
+
+\node () at (1.25,1.25) {{\setmainfont[Scale=2.175]{Cooper Black} Grawlix}};
+\node () at (1.25,0.65) {{\setmainfont[Scale=0.825]{Quicksand-Medium} The Typesetters' Game}};
+
+\foreach \i/\j/\k in {0.0/blue/at, 0.5/violet/ampersand, 1.0/yellow/dollar, 1.5/green/asterisk, 2.0/red/octothorpe, 2.5/orange/percent} {
+	\node[tile] () at (\i,0.0) {};
+	\pic () at (\i,0.0) {\k={\j}};
+}
+
+\foreach \i/\j/\k in {0.0/orange/asterisk, 0.5/red/dollar, 1.0/violet/at, 1.5/blue/ampersand, 2.0/yellow/percent, 2.5/green/octothorpe} {
+	\node[tile] () at (\i,-0.5) {};
+	\pic () at (\i,-0.5) {\k={\j}};
+}
+
+\foreach \i/\j/\k in {0.0/violet/percent, 0.5/blue/octothorpe, 1.0/red/asterisk, 1.5/orange/dollar, 2.0/green/at, 2.5/yellow/ampersand} {
+	\node[tile] () at (\i,-1.0) {};
+	\pic () at (\i,-1.0) {\k={\j}};
+}
+
+\foreach \i/\j/\k in {0.0/green/dollar, 0.5/yellow/asterisk, 1.0/blue/percent, 1.5/violet/octothorpe, 2.0/orange/ampersand, 2.5/red/at} {
+	\node[tile] () at (\i,-1.5) {};
+	\pic () at (\i,-1.5) {\k={\j}};
+}
+
+\foreach \i/\j/\k in {0.0/red/ampersand, 0.5/green/percent, 1.0/orange/octothorpe, 1.5/yellow/at, 2.0/blue/asterisk} {
+	\node[tile] () at (\i,-2.0) {};
+	\pic () at (\i,-2.0) {\k={\j}};
+}
+
+\foreach \i/\j/\k in {0.0/yellow/octothorpe, 0.5/orange/at, 1.0/green/ampersand, 1.5/red/percent} {
+	\node[tile] () at (\i,-2.5) {};
+	\pic () at (\i,-2.5) {\k={\j}};
+}
+
+%\node[tile, rotate=15] () at (1.25,-3.575) {};
+%\pic[rotate=15] () at (1.25, -3.575) {dollar={violet}};
+%
+%\node[tile, rotate=-30] () at (2.25,-3.575) {};
+%\pic[rotate=-30] () at (2.25, -3.575) {dollar={blue}};
+%
+%\node[tile, rotate=30] () at (0.25,-3.575) {};
+%\pic[rotate=30] () at (0.25, -3.575) {asterisk={violet}};
+\path (-1.625,-3) to (4.125,-3);
+\end{tikzpicture}
+%\end{center}
+}
+\end{document}
