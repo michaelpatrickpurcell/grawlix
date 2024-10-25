@@ -1,0 +1,36 @@
+\documentclass{standalone}
+\usepackage{grawlix}
+
+\begin{document}
+
+\begin{tikzpicture}[transform shape, scale=6.75]
+\foreach \i / \j / \k in {0/red/R, -0.7/orange/O, -1.4/yellow/Y, -2.1/green/G, -2.8/blue/B, -3.5/violet/V} {
+
+\node[tile, draw=lightgray, ultra thick] () at (0.0,\i) {};
+\pic () at (0.0,\i) {percent={\j}};
+\node () at (0.0-0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=90] () at (0.0-0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=180] () at (0.0+0.21,\i-0.2){{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=270] () at (0.0+0.2,\i+0.21){{\fontspec[Scale=0.2]{Card Characters} \k}};
+
+\node[tile, draw=lightgray, ultra thick] () at (0.7,\i) {};
+\pic () at (0.7,\i) {ampersand={\j}};
+\node () at (0.7-0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=90] () at (0.7-0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=180] () at (0.7+0.21,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=270] () at (0.7+0.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+
+\node[tile, draw=lightgray, ultra thick] () at (1.4,\i) {};
+\pic () at (1.4,\i+0.0225) {asterisk={\j}};
+\node () at (1.4-0.21,\i+0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=90] () at (1.4-0.2,\i-0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=180] () at (1.4+0.21,\i-0.2) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+\node[rotate=270] () at (1.4+0.2,\i+0.21) {{\fontspec[Scale=0.2]{Card Characters} \k}};
+
+}
+
+%\path (-0.575, -4.95) to (4.05, 1.45);
+\end{tikzpicture}
+
+
+\end{document}

@@ -1,0 +1,37 @@
+\documentclass{standalone}
+\usepackage{grawlix}
+\usepackage{calc}
+
+\newlength{\glen}
+\newlength{\rlen}
+\newlength{\alen}
+\newlength{\wlen}
+\newlength{\llen}
+\newlength{\ilen}
+
+\begin{document}
+{%
+\setmainfont[Scale=3.0]{Cooper Black}%
+\Huge%
+\setlength{\glen}{\widthof{G}/2 + \widthof{r}/2 + 16pt}%
+\setlength{\rlen}{\glen + \widthof{r}/2 + \widthof{a}/2 + 16pt}%
+\setlength{\alen}{\rlen + \widthof{a}/2 + \widthof{w}/2 + 16pt}%
+\setlength{\wlen}{\alen + \widthof{w}/2 + \widthof{l}/2 + 16pt}%
+\setlength{\llen}{\wlen + \widthof{l}/2 + \widthof{i}/2 + 16pt}%
+\setlength{\ilen}{\llen + \widthof{i}/2 + \widthof{x}/2 + 16pt}%
+\contourlength{0.75mm}%
+\begin{tikzpicture}
+\node[tile, inner sep = 6pt, ultra thick] () at (0,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{red}{G}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\glen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{orange}{r}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\rlen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{yellow}{a}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\alen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{green}{w}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\wlen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{blue}{l}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\llen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{violet}{i}}};
+\node[tile, inner sep = 6pt, ultra thick] () at (\ilen,0) {\rule[-0.25ex]{0pt}{1.875ex}\contour{black}{\textcolor{red}{x}}};
+%\node () at (\alen-0.75cm,-2.5cm) {\setmainfont[Scale=1.5]{Quicksand-Bold} \Huge The Typesetters' Game};
+
+\path (-2cm, -2cm) to (14.25cm, 2.0cm);
+%\path (-0cm, -7.25cm) to (5cm, 5.9cm);
+\end{tikzpicture}%
+}%
+\end{document}
